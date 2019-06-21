@@ -8,7 +8,7 @@ for (i in 1:300) {
   dat <- rbind(dat, read.csv(files_full[i]))
   }
 
-#2.using map funtion
+#2.using map funtion.
 library(tidyverse)
 
 data1<-list.files(path = "D:/R/test/",
