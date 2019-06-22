@@ -30,7 +30,7 @@ All <- lapply(filenames,function(i){
 })
 df <- do.call(rbind.data.frame, All)
 
-#3.
+#3.another method for quick excle file manipulation
 
 
 
